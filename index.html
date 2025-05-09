@@ -10,11 +10,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
     :root {
-      --bg: #fdfdfd;
-      --primary: #1a73e8;
+      --bg: #ffffff;
+      --primary: #006d77; /* Dark Teal */
+      --secondary: #83c5be; /* Light Teal */
+      --accent: #ffdd57; /* Mild Yellow */
       --text: #333;
-      --accent: #e2e8f0;
-      --secondary: #555;
     }
     * {
       box-sizing: border-box;
@@ -46,6 +46,7 @@
     header h1 {
       font-size: 2.5rem;
       margin-bottom: .5rem;
+      color: var(--primary);
     }
     header p {
       font-size: 1.1rem;
@@ -57,7 +58,7 @@
       justify-content: center;
       gap: 2rem;
       padding: 1rem 0;
-      background: var(--accent);
+      background: var(--secondary);
       position: sticky;
       top: 0;
       z-index: 10;
@@ -120,19 +121,23 @@
     }
 
     footer {
-      background: var(--accent);
+      background: var(--secondary);
       text-align: center;
       padding: 1.5rem;
       font-size: .9rem;
+      color: var(--primary);
     }
     .contact a {
       color: var(--primary);
       text-decoration: none;
       margin: 0 .5rem;
       font-weight: 600;
+      background-color: var(--accent);
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
     }
     .contact a:hover {
-      opacity: .7;
+      opacity: .8;
     }
   </style>
 </head>
@@ -184,7 +189,11 @@
 
     <section id="contact" class="contact">
       <h2>Contact</h2>
-      <p>Email: <a href="mailto:kendavidn@gmail.com">kendavidn@gmail.com</a> · GitHub: <a href="https://github.com/kendavidn" target="_blank">@kendavidn</a></p>
+      <p>GitHub: <a href="https://github.com/kendavidn" target="_blank">@kendavidn</a></p><br><br>
+    </section>
+    <section id="CV" class="contact">
+      <h2>CV</h2>
+      <p><a href="https://drive.google.com/file/d/1tyq_qTeEbigj4Jqjb_wAAfYE6fMXcivM/view?usp=sharing" target="_blank">Download my CV (PDF)</a></p>
     </section>
   </main>
 
