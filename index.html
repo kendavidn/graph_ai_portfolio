@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kene David Nwosu | AI Course Portfolio</title>
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #fdfdfd;
+      --primary: #1a73e8;
+      --text: #333;
+      --accent: #e2e8f0;
+      --secondary: #555;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.6;
+    }
+    header {
+      background: var(--bg);
+      padding: 2.5rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: .5rem;
+    }
+    header p {
+      font-size: 1.1rem;
+      color: var(--secondary);
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem 0;
+      background: var(--accent);
+      position: sticky;
+      top: 0;
+    }
+    nav a {
+      text-decoration: none;
+      color: var(--primary);
+      font-weight: 600;
+    }
+    nav a:hover {
+      opacity: .7;
+    }
+
+    section {
+      padding: 3rem 1rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    section h2 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      color: var(--primary);
+    }
+    .about p {
+      margin-bottom: 1rem;
+    }
+
+    .course .module {
+      margin-bottom: .75rem;
+    }
+    .module-title {
+      font-weight: 600;
+    }
+
+    .submissions ul {
+      list-style: none;
+      border-left: 3px solid var(--primary);
+      padding-left: 1.25rem;
+    }
+    .submissions li {
+      margin-bottom: 1rem;
+      position: relative;
+    }
+    .submissions li::before {
+      content: '';
+      position: absolute;
+      left: -10px;
+      top: 4px;
+      width: 10px;
+      height: 10px;
+      background: var(--primary);
+      border-radius: 50%;
+    }
+    .submissions a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+    .submissions a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      background: var(--accent);
+      text-align: center;
+      padding: 1.5rem;
+      font-size: .9rem;
+    }
+    .contact a {
+      color: var(--primary);
+      text-decoration: none;
+      margin: 0 .5rem;
+      font-weight: 600;
+    }
+    .contact a:hover {
+      opacity: .7;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Kene David Nwosu</h1>
+    <p>PhD Candidate · Data Analyst · Educator · Geneva</p>
+  </header>
+
+  <nav>
+     <a href="#about">About</a>
+     <a href="#course">Course</a>
+     <a href="#submissions">Weekly Submissions</a>
+     <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <section id="about" class="about">
+      <h2>About Me</h2>
+      <p>I’m a PhD candidate in epidemiology at the University of Geneva, passionate about leveraging generative AI to accelerate research workflows and knowledge sharing. With a background in data science, web development and education, I co‑founded <a href="https://thegraphcourses.org" target="_blank">The GRAPH Courses</a>, a non‑profit platform reaching 4,000+ learners.</p>
+      <p>My work ranges from building R Shiny dashboards for WHO to publishing first‑author papers in journals like <em>Nature Communications</em>. Fluent in English and Spanish (B2 French), I enjoy turning complex data into actionable insights and teaching others to do the same.</p>
+    </section>
+
+    <section id="course" class="course">
+      <h2>Generative AI for Work &amp; Research Productivity</h2>
+      <p>8‑week live online certification · Started <strong>May&nbsp;9, 2025</strong> · Fridays 3 pm GMT</p>
+      <div class="module">
+        <span class="module-title">Week 1 – Documents, Presentations &amp; Websites</span>
+      </div>
+      <div class="module">
+        <span class="module-title">Week 2 – Automated Data Analysis</span>
+      </div>
+      <div class="module">
+        <span class="module-title">Week 3 – GenAI for Research &amp; Text Analysis</span>
+      </div>
+      <div class="module">
+        <span class="module-title">Week 4 – Custom GPTs and Chatbots</span>
+      </div>
+      <div class="module">
+        <span class="module-title">Week 5 – AI Workflows for Task Automation</span>
+      </div>
+      <div class="module">
+        <span class="module-title">Week 6 – GenAI for Communication &amp; Outreach</span>
+      </div>
+      <div class="module">
+        <span class="module-title">Week 7+8 – Capstone Project &amp; Showcase</span>
+      </div>
+    </section>
+
+    <section id="submissions" class="submissions">
+      <h2>Weekly Submissions</h2>
+      <ul>
+        <li><strong>Week 1:</strong> <a href="#" target="_blank">Submission Title Placeholder</a></li>
+        <li><strong>Week 2:</strong> <em>Coming soon</em></li>
+        <li><strong>Week 3:</strong> <em>Coming soon</em></li>
+        <li><strong>Week 4:</strong> <em>Coming soon</em></li>
+        <li><strong>Week 5:</strong> <em>Coming soon</em></li>
+        <li><strong>Week 6:</strong> <em>Coming soon</em></li>
+        <li><strong>Capstone:</strong> <em>Coming soon</em></li>
+      </ul>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:kendavidn@gmail.com">kendavidn@gmail.com</a> · GitHub: <a href="https://github.com/kendavidn" target="_blank">@kendavidn</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Kene David Nwosu · Built with HTML&nbsp;&amp;&nbsp;CSS</p>
+  </footer>
+</body>
+</html>
