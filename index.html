@@ -29,8 +29,19 @@
     }
     header {
       background: var(--bg);
-      padding: 2.5rem 1rem;
+      padding: 2.5rem 1rem 2rem;
       text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .avatar {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: 0 4px 10px rgba(0,0,0,.15);
+      margin-bottom: 1rem;
     }
     header h1 {
       font-size: 2.5rem;
@@ -49,6 +60,7 @@
       background: var(--accent);
       position: sticky;
       top: 0;
+      z-index: 10;
     }
     nav a {
       text-decoration: none;
@@ -126,6 +138,7 @@
 </head>
 <body>
   <header>
+    <img src="https://github.com/kendavidn/graph_ai_portfolio/blob/main/linkedin%20photo%20-%20Kene%20David%20Nwosu.png?raw=true" alt="Kene David Nwosu" class="avatar">
     <h1>Kene David Nwosu</h1>
     <p>PhD Candidate · Data Analyst · Educator · Geneva</p>
   </header>
@@ -140,45 +153,31 @@
   <main>
     <section id="about" class="about">
       <h2>About Me</h2>
-      <p>I’m a PhD candidate in epidemiology at the University of Geneva, passionate about leveraging generative AI to accelerate research workflows and knowledge sharing. With a background in data science, web development and education, I co‑founded <a href="https://thegraphcourses.org" target="_blank">The GRAPH Courses</a>, a non‑profit platform reaching 4,000+ learners.</p>
-      <p>My work ranges from building R Shiny dashboards for WHO to publishing first‑author papers in journals like <em>Nature Communications</em>. Fluent in English and Spanish (B2 French), I enjoy turning complex data into actionable insights and teaching others to do the same.</p>
+      <p>I’m a PhD candidate in epidemiology at the University of Geneva, passionate about leveraging generative AI to accelerate research workflows and knowledge sharing. With a background in data science, web development and education, I co-founded <a href="https://thegraphcourses.org" target="_blank">The GRAPH Courses</a>, a non-profit platform reaching 4,000+ learners.</p>
+      <p>My work ranges from building R Shiny dashboards for WHO to publishing first-author papers in journals like <em>Nature Communications</em>. Fluent in English and Spanish (B2 French), I enjoy turning complex data into actionable insights and teaching others to do the same.</p>
     </section>
 
     <section id="course" class="course">
       <h2>Generative AI for Work &amp; Research Productivity</h2>
-      <p>8‑week live online certification · Started <strong>May&nbsp;9, 2025</strong> · Fridays 3 pm GMT</p>
-      <div class="module">
-        <span class="module-title">Week 1 – Documents, Presentations &amp; Websites</span>
-      </div>
-      <div class="module">
-        <span class="module-title">Week 2 – Automated Data Analysis</span>
-      </div>
-      <div class="module">
-        <span class="module-title">Week 3 – GenAI for Research &amp; Text Analysis</span>
-      </div>
-      <div class="module">
-        <span class="module-title">Week 4 – Custom GPTs and Chatbots</span>
-      </div>
-      <div class="module">
-        <span class="module-title">Week 5 – AI Workflows for Task Automation</span>
-      </div>
-      <div class="module">
-        <span class="module-title">Week 6 – GenAI for Communication &amp; Outreach</span>
-      </div>
-      <div class="module">
-        <span class="module-title">Week 7+8 – Capstone Project &amp; Showcase</span>
-      </div>
+      <p>8-week live online certification · Started <strong>May&nbsp;9, 2025</strong> · Fridays 3&nbsp;pm&nbsp;GMT</p>
+      <div class="module"><span class="module-title">Week 1 – Documents, Presentations &amp; Websites</span></div>
+      <div class="module"><span class="module-title">Week 2 – Automated Data Analysis</span></div>
+      <div class="module"><span class="module-title">Week 3 – GenAI for Research &amp; Text Analysis</span></div>
+      <div class="module"><span class="module-title">Week 4 – Custom GPTs and Chatbots</span></div>
+      <div class="module"><span class="module-title">Week 5 – AI Workflows for Task Automation</span></div>
+      <div class="module"><span class="module-title">Week 6 – GenAI for Communication &amp; Outreach</span></div>
+      <div class="module"><span class="module-title">Week 7+8 – Capstone Project &amp; Showcase</span></div>
     </section>
 
     <section id="submissions" class="submissions">
       <h2>Weekly Submissions</h2>
       <ul>
-        <li><strong>Week 1:</strong> <a href="#" target="_blank">Submission Title Placeholder</a></li>
-        <li><strong>Week 2:</strong> <em>Coming soon</em></li>
-        <li><strong>Week 3:</strong> <em>Coming soon</em></li>
-        <li><strong>Week 4:</strong> <em>Coming soon</em></li>
-        <li><strong>Week 5:</strong> <em>Coming soon</em></li>
-        <li><strong>Week 6:</strong> <em>Coming soon</em></li>
+        <li><strong>Week 1:</strong> <a href="#" target="_blank">Submission Title Placeholder</a></li>
+        <li><strong>Week 2:</strong> <em>Coming soon</em></li>
+        <li><strong>Week 3:</strong> <em>Coming soon</em></li>
+        <li><strong>Week 4:</strong> <em>Coming soon</em></li>
+        <li><strong>Week 5:</strong> <em>Coming soon</em></li>
+        <li><strong>Week 6:</strong> <em>Coming soon</em></li>
         <li><strong>Capstone:</strong> <em>Coming soon</em></li>
       </ul>
     </section>
